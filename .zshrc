@@ -75,7 +75,7 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws celery command-not-found composer common-aliases django docker encode64 gitfast git-extras git-flow jsontools kubectl macports node npm per-directory-history pip python rails ssh-agent sudo tmux vscode web-search)
+plugins=(git aws celery command-not-found composer common-aliases django docker encode64 gitfast git-extras git-flow jsontools kubectl macports node npm per-directory-history pip python ssh-agent sudo tmux vscode web-search)
 
 source $ZSH/oh-my-zsh.sh
 
