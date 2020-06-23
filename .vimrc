@@ -18,8 +18,16 @@ set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
+
+" https://docs.emmet.io/cheat-sheet/
+Plugin 'mattn/emmet-vim'
+
+" NERDTree
+" Move between tabs: gt gT
+" Move between windows: <C>+w w and h j k l
+" Resize n <C>+w ><
+Plugin 'preservim/nerdtree'
+
+Plugin 'vim-airline/vim-airline'
 call vundle#end()
 
-call vundle#begin()
-Plugin 'preservim/nerdtree'
-call vundle#end()
