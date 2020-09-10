@@ -1,5 +1,6 @@
-set encoding=utf-8
+" rafaelpardor
 syntax on
+set encoding=utf-8
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -8,11 +9,14 @@ set number
 set hlsearch
 set ruler
 set showmatch
+set mouse=a
+set sw=2
+set laststatus=2
+
 
 highlight Comment ctermfg=green
 
 let python_highlight_all = 1
-
 
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -28,6 +32,22 @@ Plugin 'mattn/emmet-vim'
 " Resize n <C>+w ><
 Plugin 'preservim/nerdtree'
 
-Plugin 'vim-airline/vim-airline'
+Plugin 'easymotion/vim-easymotion'
+
 call vundle#end()
 
+let mapleader=" "
+nmap <Leader>s <Plug>(easymotion-s2)
+
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
