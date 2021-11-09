@@ -96,8 +96,6 @@ alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
 
-xhost +local:root > /dev/null 2>&1
-
 complete -cf sudo
 
 # Bash won't get SIGWINCH if another process is in the foreground.
