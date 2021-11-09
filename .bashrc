@@ -135,10 +135,10 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 
+}
 alias ls='ls --color'
 export PS1='\u@\h:\[\e[33m\]\w\[\e[0m\]\$ '
 export EDITOR='vim'
-}
 
 # nvm - node version manager
 export NVM_DIR="$HOME/.nvm"
