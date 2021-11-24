@@ -4,6 +4,7 @@
 # cat /etc/*-release
 # sudo lsof -i -P -n | grep LISTEN
 # Delete delete mozilla bookmarks backups 
+# isosec=%y%m%d%h%m%s
 
 
 # Conditional for ram swap in sudo mode 
