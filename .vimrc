@@ -48,13 +48,13 @@ set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " zo open single fold
-" " zc close single fold
-" " zr open all folds
-" " zm close all folds
+" zc close single fold
+" zr open all folds
+" zm close all folds
 
 " VIMSCRIPT -------------------------------------------------------------- {{{
 "
-" " This will enable code folding.
+" This will enable code folding.
 " augroup filetype_vim
 "     autocmd!
 "         autocmd FileType vim setlocal foldmethod=marker
@@ -62,3 +62,4 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 "
 "
 "         " }}}
+

@@ -14,7 +14,7 @@ export GOBIN=/Users/$USER/repos/bin
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export CLICOLORS=1
-export HISTCONTROL=ignoredups
+export HISTCONTROL=ignoredups 
 
 # mac
 if [[ $(uname -s) == "Darwin" ]]; then
