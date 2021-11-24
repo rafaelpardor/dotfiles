@@ -4,5 +4,7 @@
   username = rafaelpardor
 [init]
 	defaultBranch = master
+[core]
+  editor = vim
 [color]
   ui = true
