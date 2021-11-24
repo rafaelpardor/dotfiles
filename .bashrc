@@ -14,6 +14,7 @@ export GOBIN=/Users/$USER/repos/bin
 export LSCOLORS=ExFxBxDxCxegedabagacad
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export CLICOLORS=1
+export HISTCONTROL=ignoredups
 
 # mac
 if [[ $(uname -s) == "Darwin" ]]; then
@@ -24,9 +25,10 @@ fi
 alias ls='ls --color=auto -a'
 alias ll='ls --color=auto -la'
 alias chmox='chmod -x'
+alias isosec="date +%Y%m%d%H%M%S"
 alias gstat='git status -sb'
 alias glog="git log --oneline --graph"
-alias isosec="date +%Y%m%d%H%M%S"
+alias gclone="git clone -q"
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
