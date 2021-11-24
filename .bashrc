@@ -16,7 +16,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export CLICOLORS=1
 export HISTCONTROL=ignoredups 
 
-# mac
+# mac m1
 if [[ $(uname -s) == "Darwin" ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
@@ -26,6 +26,8 @@ alias ls='ls --color=auto -a'
 alias ll='ls --color=auto -la'
 alias chmox='chmod -x'
 alias isosec="date +%Y%m%d%H%M%S"
+alias gadd="git add"
+alias gcomm="git commit -q"
 alias gstat='git status -sb'
 alias glog="git log --oneline --graph"
 alias gclone="git clone -q"

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ln -sf "$PWD/.bashrc" "$HOME/.bashrc"
+ln -sf "$PWD/.tmux.conf" "$HOME/.tmux.conf"
 
 # Todo
 ## IP=$(/sbin/ip route | awk '/default/ { print $3 }')
