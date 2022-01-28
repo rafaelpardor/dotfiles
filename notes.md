@@ -3,6 +3,11 @@
 ## VIM
 
 ```
+CTRL + Y = 
+CTRL + U = 
+CTRL + E =  
+CTRL + D =  
+CTRL + F =  
 gt = To move to next tab
 gT = To move to prev tab
 ngt = To move to N tab
@@ -15,4 +20,6 @@ CTRL + w CTRL + ] = Open definition in a horizontal split
 CTRL + w_ = If split is horizontal
 CTRL + w| = If split is vertical
 CTRL + w= = To resize split
+
+:w !sudo tee % = Save file as sudo
 ```
